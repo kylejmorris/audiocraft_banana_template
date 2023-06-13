@@ -2,8 +2,8 @@ from potassium import Potassium, Request, Response
 import base64
 
 from transformers import pipeline
-import torch
 
+import torch
 import torchaudio
 from audiocraft.models import MusicGen
 from audiocraft.data.audio import audio_write
