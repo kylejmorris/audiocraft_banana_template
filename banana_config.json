@@ -1,24 +1,9 @@
 {
-    "name": "",
-    "category": "",
-    "example_input": {
-        "prompt": "Hello I am a [MASK] model."
-    },
-    "example_output": {
-        "outputs":[
-            {
-                "score":0.13177461922168732,
-                "token":4827,
-                "token_str":"fashion",
-                "sequence":"hello i am a fashion model."
-            },
-            {
-                "score":0.1120428815484047,
-                "token":2535,
-                "token_str":"role",
-                "sequence":"hello i am a role model."
-            }
-        ]
-    },
-    "version": "1"
+  "name": "Faebook Audiocraft",
+  "category": "Audio",
+  "example_input": {"prompt": "slavic hard bass with jazz background",
+    "duration":10
+  },
+  "example_output": {"outputs": "base64 output of .wav file..."},
+  "version": "1"
 }
